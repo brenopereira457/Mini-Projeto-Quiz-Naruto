@@ -1,0 +1,24 @@
+1°<link rel="stylesheet" href="style_categoria2.css">
+
+2° <br>
+                <div class="btn">
+                <button type="submit">Enviar Respostas</button>
+            </div>  
+
+
+3°. count($gabarito) .
+
+4° foreach($gabarito as $pergunta => $pergunta_armazenada){
+            if (isset($_POST[$pergunta]) && $_POST[$pergunta] === $pergunta_armazenada) {
+                $pontos++;
+            }
+        }
+
+
+5° "q3" => "a",
+
+6° <a> </a>
+
+7° tudo sobre o style.css
+
+
